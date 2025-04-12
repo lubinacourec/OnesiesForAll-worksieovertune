@@ -19,6 +19,6 @@
 	</modDependencies>
 	<loadAfter>
 		<li>Cantaloupe.OnesiesForAll</li>
-		<li>Cantaloupe.OnesiesForAll.Nerfed</li>
+		<li>cantaloupe.onesiesforall.nerfed</li>
 	</loadAfter>
 </ModMetaData>
