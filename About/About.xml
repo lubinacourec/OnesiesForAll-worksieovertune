@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>OnesiesForAll - Worksie Overtune</name>
+	<author>Marle</author>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	<packageId>marlemmo.patches.OnesiesForAll.worksieovertune</packageId>
+	<description>Rebalances Worksie. Recommended to use with OnesiesForAll - Nerfed Patch.
+	+0.05c/s move speed, +10% social impact for worksie. Adjusts work speed to +0.12.
+	</description>
+	<modDependencies>
+		<li>
+			<packageId>Cantaloupe.OnesiesForAll</packageId>
+			<displayName>OnesiesForAll</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2969148114</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Cantaloupe.OnesiesForAll</li>
+		<li>Cantaloupe.OnesiesForAll.Nerfed</li>
+	</loadAfter>
+</ModMetaData>
