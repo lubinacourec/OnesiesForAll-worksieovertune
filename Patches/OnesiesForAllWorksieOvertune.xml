@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+	<!--Worksies -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Apparel_Worksie"]/equippedStatOffsets</xpath>
+			<order>Prepend</order>
+			<value>
+				<MoveSpeed>0.05</MoveSpeed>
+				<SocialImpact>0.1</SocialImpact>
+			</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Apparel_Worksie"]/equippedStatOffsets/WorkSpeedGlobal</xpath>
+			<value>
+				<WorkSpeedGlobal>0.12</WorkSpeedGlobal>
+			</value>
+	</Operation>
+		<!--Kid Worksie -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Apparel_KidWorksie"]/equippedStatOffsets</xpath>
+			<order>Prepend</order>
+			<value>
+				<MoveSpeed>0.05</MoveSpeed>
+				<SocialImpact>0.1</SocialImpact>
+			</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Apparel_KidWorksie"]/equippedStatOffsets/WorkSpeedGlobal</xpath>
+			<value>
+				<WorkSpeedGlobal>0.12</WorkSpeedGlobal>
+			</value>
+	</Operation>
+</Patch>
